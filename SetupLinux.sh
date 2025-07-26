@@ -13,8 +13,8 @@ apt-get install python2
 sleep 1
 echo Please wait be patient.
 sleep 1
-pip2 install requests
-pip2 install bs4
+pip2 install requests --break-system-packages
+pip2 install bs4 --break-system-packages
 sleep 1
 echo succesfull installed for linux!
 sleep 1 
